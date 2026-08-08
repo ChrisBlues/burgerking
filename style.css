@@ -94,6 +94,10 @@ button {
     transition: 0.2s ease-out;
 }
 
+.home button {
+    margin-bottom: 60px;
+}
+
 button span {
     font-family: 'Anton', sans-serif;
     font-size: 15px;
@@ -179,12 +183,15 @@ hr {
 
 /* Home */
 .home {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    /* margin-bottom: 100px; */
     background: url(./images/img1.webp);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-    height: calc(100vh - 200px);
+    height: 800px;
+    /* height: calc(100vh - 400px); */
     display: flex;
     align-items: flex-end;
     justify-content: center;
